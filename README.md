@@ -1,8 +1,8 @@
-📚 Library Management System
+**📚 Library Management System**
 
 This Library Management System is designed to manage and track books, authors, publishers, library branches, borrowers, and book loans. It includes structured data in .csv format, a MySQL Workbench ER Diagram (.mwb), and a SQL script for creating the database schema.
 
-📦 File Descriptions
+**📦 File Descriptions**
 
 | File Name              | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|
@@ -16,31 +16,31 @@ This Library Management System is designed to manage and track books, authors, p
 | Library Management.sql | SQL script to create all tables and relationships in the MySQL database     |
 | ERR Diagram.mwb        | MySQL Workbench ER Diagram representing the schema visually                 |
 
-🛠️ Technologies Used
+**🛠️ Technologies Used**
 
-MySQL for database management
+1. MySQL for database management
 
-MySQL Workbench for ER diagram modeling
+2. MySQL Workbench for ER diagram modeling
 
-CSV Files for data import/export
+3. CSV Files for data import/export
 
-SQL for schema creation and database operations
+4. SQL for schema creation and database operations
 
-🚀 How to Use
+**🚀 How to Use**
 
-Import the ERR Diagram.mwb in MySQL Workbench to visualize the schema.
+1. Import the ERR Diagram.mwb in MySQL Workbench to visualize the schema.
 
-Execute Library Management.sql in your MySQL environment to create the schema.
+2. Execute Library Management.sql in your MySQL environment to create the schema.
 
-Use the .csv files to populate tables using tools like MySQL Workbench or through custom scripts.
+3. Use the .csv files to populate tables using tools like MySQL Workbench or through custom scripts.
 
-🧩 Relationships (ER Diagram Overview)
+**🧩 Relationships (ER Diagram Overview)**
 
 The ER diagram outlines key relationships:
 
-Books are written by Authors and published by Publishers.
+1. Books are written by Authors and published by Publishers.
 
-Each Library Branch holds multiple copies of each Book.
+2. Each Library Branch holds multiple copies of each Book.
 
-Borrowers can loan Books, and each loan has a due date and return date.
+3. Borrowers can loan Books, and each loan has a due date and return date.
 
